@@ -19,7 +19,7 @@ public class TypeCasting {
 		
 	    double k=7000.0;
 	    
-	    @SuppressWarnings("unused")
+	  //  @SuppressWarnings("unused")
 		int j=(int) k; //explicit way
 	    
 	    System.out.println("integer value is  "+j);

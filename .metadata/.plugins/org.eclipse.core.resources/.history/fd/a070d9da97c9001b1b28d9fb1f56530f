@@ -1,0 +1,33 @@
+package com.oopsconcepts.pages;
+
+
+
+class Name
+{
+	public void login() 
+	{
+		System.out.println("this method is for logging into the application");
+	}
+}
+
+
+
+class Password extends Name
+{
+	public void login() 
+	{
+		System.out.println("this method is for password");
+	}
+}
+
+
+
+public class MethodOverriding {
+
+	public static void main(String[] args) 
+	{
+		
+						
+		
+	}
+}

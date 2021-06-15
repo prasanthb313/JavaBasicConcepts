@@ -1,0 +1,12 @@
+package com.oopsconcepts.pages;
+
+public class SingleLevelInheritance {
+
+	int number=10;
+	String name="andhrapradesh";	
+	
+	public void exmple() {
+		System.out.println("This methos is for printing examples");
+	}
+}
+

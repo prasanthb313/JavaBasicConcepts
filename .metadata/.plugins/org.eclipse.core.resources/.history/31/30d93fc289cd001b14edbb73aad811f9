@@ -1,0 +1,10 @@
+package com.oopsconcepts.pages;
+
+public class PrivateAccessModify {
+
+	private int i=10;
+	private void login()
+	{
+		System.out.println("Method for login into the application");
+	}
+}

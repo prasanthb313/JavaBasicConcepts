@@ -1,0 +1,47 @@
+package com.oopsconcepts.pages;
+
+class MainClass
+{
+    public void firstMethod() 
+    {
+    	System.out.println("Executing first method");
+    }
+}
+
+class SecondClass extends MainClass
+{
+	 public void secondMethod() 
+	 {
+	    System.out.println("Executing second method");
+	 }
+}
+
+class ThirdClass extends SecondClass
+{
+	 public void thirdMethod() 
+	 {
+	    System.out.println("Executing third method");
+	 }
+}
+
+class User extends  ThirdClass
+{
+	public static void main(String[] args) 
+	{
+		User ref=new User();
+		ref.firstMethod();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

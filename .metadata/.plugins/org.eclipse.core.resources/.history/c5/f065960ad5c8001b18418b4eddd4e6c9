@@ -1,0 +1,30 @@
+package com.oopsconcepts.pages;
+
+class HirearchicalInherit
+{
+      public void mainMethod()
+      {
+    	  System.out.println("Executing the main method");
+      }
+}
+
+class FisrstClass extends HirearchicalInherit
+{
+	public void firstMethod()
+	{
+		System.out.println("executing the first method");
+	}
+}
+
+class SecondClass extends HirearchicalInherit
+{
+	public void secondMethod()
+	{
+		System.out.println("executing the third method");
+	}
+}
+
+class UserClass
+{
+	
+}

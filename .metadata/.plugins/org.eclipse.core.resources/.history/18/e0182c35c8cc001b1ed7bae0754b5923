@@ -1,0 +1,33 @@
+package com.oopsconcepts.pages;
+
+
+interface Parent
+{
+	public void parentMethod();
+}
+
+interface Child
+{
+	public void childMethod();
+}
+
+public class MultipleInheritanceInterface implements Parent,Child {
+
+	@Override
+	public void childMethod() {
+		// TODO Auto-generated method stub
+		System.out.println("chile method");
+	}
+
+	@Override
+	public void parentMethod() {
+		// TODO Auto-generated method stub
+		System.out.println("parent method");
+	}
+public static void main(String[] args) {
+	MultipleInheritanceInterface ref=new MultipleInheritanceInterface();
+	
+	ref.childMethod();
+	ref.parentMethod();
+}
+}

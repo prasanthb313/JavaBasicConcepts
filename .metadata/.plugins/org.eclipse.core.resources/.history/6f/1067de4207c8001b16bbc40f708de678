@@ -1,0 +1,22 @@
+package com.oopsconcepts.pages;
+
+public class CallByValue {
+
+	int i=20;
+	
+	public void numberIs(int i) {
+		
+		i=i+100;
+		System.out.println("Number is  "+i);
+		
+	}
+	
+	// main method
+	public static void main(String[] args) {
+		
+		CallByValue ref=new CallByValue();
+		ref.numberIs(75);
+		
+		
+	}
+}

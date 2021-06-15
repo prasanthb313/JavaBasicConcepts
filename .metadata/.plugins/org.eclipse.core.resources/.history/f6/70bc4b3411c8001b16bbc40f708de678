@@ -1,0 +1,9 @@
+package com.oopsconcepts.pages;
+
+import com.oopsconcepts.pages.TestInherit.TestInherit2;
+
+public class TestInheritShow extends TestInherit2{
+public static void main(String[] args) {
+	TestInherit2 ref=new TestInherit2();
+}
+}

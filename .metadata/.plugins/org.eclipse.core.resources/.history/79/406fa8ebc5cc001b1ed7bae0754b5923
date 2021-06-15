@@ -1,0 +1,15 @@
+package com.oopsconcepts.pages;
+
+
+interface ParentClass
+{
+	static final int i =10;
+	int k=90;
+	
+	public void naivgate();
+	public void login();
+	
+}
+public class InterfaceExample {
+
+}

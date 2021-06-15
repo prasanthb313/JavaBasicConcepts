@@ -1,0 +1,13 @@
+package com.oopsconcepts.pages;
+
+
+class Browser
+{
+	void navigate()
+	{
+		System.out.println("this methos is for launching the browser");
+	}
+}
+public class PassByReference {
+
+}

@@ -1,0 +1,15 @@
+package com.oopsconcepts.pages;
+
+public class Composition {
+
+	public void example1() {
+		System.out.println("this is for composition ");
+	}
+	public void example2() {
+		System.out.println("this is for composition 2");
+	}
+	
+}
+class Composition1 {
+	
+}

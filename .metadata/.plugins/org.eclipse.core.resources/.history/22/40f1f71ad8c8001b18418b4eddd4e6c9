@@ -1,0 +1,9 @@
+package com.oopsconcepts.pages;
+
+public class HierarchicalInherit extends FirstClass {
+public static void main(String[] args) {
+	FirstClass first=new FirstClass();
+	first.login();
+	first.firstMethod();
+}
+}

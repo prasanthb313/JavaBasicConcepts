@@ -1,0 +1,36 @@
+package com.oopsconcepts.pages;
+
+
+class University
+{
+	public void percentage(int marks)
+	{
+		if(marks>=35) 
+		{
+			System.out.println("student is passed");
+		}
+		else
+		{
+			System.out.println("student failed as per unoversity rule");
+		}
+	}
+}
+
+class Andhra extends University
+{
+	public void percentage(int marks)
+	{
+		if(marks>=50) 
+		{
+			System.out.println("student is passed from Andhra University");
+		}
+		else
+		{
+			System.out.println("student failed as per Andhra university rule");
+		}
+	}
+}
+
+public class MethodOverRidingExamlpe {
+
+}

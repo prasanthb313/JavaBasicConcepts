@@ -1,0 +1,16 @@
+package com.oopsconcepts.pages;
+
+
+interface Parent
+{
+	public void login();
+}
+
+interface Child
+{
+	public void login();
+}
+public class MultipleInheritanceExample2 
+{
+
+}

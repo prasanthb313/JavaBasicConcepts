@@ -1,0 +1,15 @@
+package com.oopsconcepts.pages;
+
+
+interface ParentClass
+{
+	static final int i =10;             // variables are static and final
+	int k=90;
+	
+	public abstract  void naivgate();  //methods are public and abstract by default
+	public abstract void login();
+	
+}
+public class InterfaceExample {
+
+}

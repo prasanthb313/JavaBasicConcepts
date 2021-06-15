@@ -1,0 +1,22 @@
+package com.oopsconcepts.pages;
+
+
+
+class Bike
+{
+	public void run()
+	{
+		System.out.println("it is running-----");
+	}
+}
+
+class Pulsar extends Bike
+{
+	public void run()
+	{
+		System.out.println("this bike model is pulasr 123");
+	}
+}
+public class RunTimePolymorphism {
+
+}

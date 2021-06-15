@@ -1,0 +1,6 @@
+package com.oopsconcepts.pages;
+
+abstract class AbstractExample 
+{
+    abstract void print(); //abstract method
+}

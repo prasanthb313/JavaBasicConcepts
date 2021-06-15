@@ -1,0 +1,18 @@
+package com.oopsconcepts.pages;
+
+public class TestInherit {
+
+	public void test() {
+		System.out.println("Thi is for testing the test method");
+	}
+	public void play() {
+		System.out.println("This is for playing method");
+	}
+	//inheriting the class
+	class TestInherit1 extends TestInherit{
+		
+		public void sleeping() {
+			System.out.println("This block is for sleeping");
+		}
+	}
+}

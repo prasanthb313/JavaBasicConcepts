@@ -1,0 +1,9 @@
+package com.oopsconcepts.pages;
+
+public class MainClass
+{
+	public void login()
+	{
+		System.out.println("executing the main method");
+	}
+}

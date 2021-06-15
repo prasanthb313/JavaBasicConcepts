@@ -1,0 +1,9 @@
+package com.oopsconcepts.pages;
+
+public class ThisExample2 
+{
+	void firstMethod()
+	{
+		System.out.println("this method is used to print first method");
+	}
+}

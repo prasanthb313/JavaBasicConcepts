@@ -1,0 +1,32 @@
+package com.oopsconcepts.pages;
+
+
+
+class Test
+{
+	public void navigate()
+	{
+		System.out.println("this method is used to navigate");
+	}
+}
+
+class Login extends Test
+{
+	public void login()
+	{
+		System.out.println("this method is used to login into application");
+	}
+}
+
+public class UpCasting
+{
+    public static void main(String[] args)
+    {
+	    Test test=new Login();  // upcasting
+	    test.navigate();
+	
+}
+	
+	
+}
+

@@ -1,0 +1,23 @@
+package com.oopsconcepts.pages;
+
+
+class PassPercentage
+{
+	public void percentage(int count)
+	{
+		if(count<=10) 
+		{
+			System.out.println("pass percentage is 50 percentage");
+		}
+		else
+		{
+			System.out.println("pass percenatge is less");
+		}
+	}
+}
+
+
+
+public class MethodOverRidingExamlpe {
+
+}
