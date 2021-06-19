@@ -1,8 +1,0 @@
-package com.oopsconcepts.pages;
-
-public class HierarchicalInherit {
-public static void main(String[] args) {
-	FirstClass first=new FirstClass();
-	first.login();
-}
-}

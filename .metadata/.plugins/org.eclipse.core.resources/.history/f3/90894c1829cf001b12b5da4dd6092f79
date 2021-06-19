@@ -1,0 +1,8 @@
+package com.oopsconcepts.pages;
+
+public class RechargePack {
+
+	private int recharge;
+	
+	
+}

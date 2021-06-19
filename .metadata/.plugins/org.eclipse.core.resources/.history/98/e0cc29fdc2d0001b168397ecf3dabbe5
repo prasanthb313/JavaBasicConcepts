@@ -1,0 +1,15 @@
+package com.string.examples;
+
+public class CreateString {
+
+	public static void main(String[] args) {
+		
+		String s="prasanth";  // creating the string object by literals
+							  // string constant pool area
+		
+		String name="prasanth";
+		
+		System.out.println(s);
+		
+	}
+}

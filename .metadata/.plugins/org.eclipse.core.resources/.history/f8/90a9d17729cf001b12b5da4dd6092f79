@@ -1,0 +1,16 @@
+package com.oopsconcepts.pages;
+
+public class RechargePack {
+
+	private int recharge; // 1) constant variable
+
+	public void setRecharge(int recharge) {  // generating set method
+		this.recharge = recharge;
+		
+		//implementing the logic
+		
+		
+	}
+	
+	
+}

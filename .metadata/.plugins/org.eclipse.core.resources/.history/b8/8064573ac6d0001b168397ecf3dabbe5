@@ -1,0 +1,18 @@
+package com.string.examples;
+
+public class StringPractice1 {
+
+	public static void main(String[] args) {
+		
+		String s="prasanthfihfoewhfoiwehwoiehoihg;oioh'ohgiuggknv'ohvssoirugwjsoiioioiisitttttttttttttttttttttoooppppppppppppp";
+		
+		// char At example
+		
+		char letter=s.charAt(0);
+		
+		System.out.println(letter);
+		
+		System.out.println();
+		
+	}
+}

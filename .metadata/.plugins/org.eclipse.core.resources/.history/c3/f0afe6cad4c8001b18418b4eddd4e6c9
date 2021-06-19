@@ -1,9 +1,0 @@
-package com.oopsconcepts.pages;
-
-class HirearchicalInherit
-{
-      public void mainMethod()
-      {
-    	  System.out.println("Executing the main method");
-      }
-}

@@ -1,0 +1,12 @@
+package com.string.examples;
+
+public class StringSplitting {
+
+	public static void main(String[] args) {
+		String name="Hyma;Symphony;QA;Bangalore";
+		
+		String [] info=name.split(";");
+		
+		
+	}
+}

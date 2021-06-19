@@ -1,9 +1,0 @@
-package com.oopsconcepts.pages;
-
-class Launch {
-
-	public void navigate() {
-		System.out.println("method is used to navigate to browser");
-	}
-}
-class 

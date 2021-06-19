@@ -1,0 +1,9 @@
+package com.oopsconcepts.pages;
+
+public class Encapsulation {
+
+	int a=20;
+	String name="prasanth";
+	
+	
+}

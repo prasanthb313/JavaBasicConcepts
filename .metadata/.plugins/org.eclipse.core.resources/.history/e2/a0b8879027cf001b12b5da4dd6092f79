@@ -1,0 +1,34 @@
+package com.oopsconcepts.pages;
+
+
+public class Encapsulation {
+
+	private int a;		 //constant
+	private String name; //constant
+	
+	public int getA() {
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+		 
+	public static void main(String[] args) {
+		
+		Encapsulation encap=new Encapsulation();
+		
+		encap.setA(10);
+		encap.setName("Baddepudi");
+	    System.out.println(encap.a);
+	    
+	    System.out.println(encap.getA());
+	    System.out.println(encap.getName());
+	
+	}
+}

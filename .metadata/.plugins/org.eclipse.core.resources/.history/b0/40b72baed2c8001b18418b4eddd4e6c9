@@ -1,9 +1,0 @@
-package com.oopsconcepts.pages;
-
-class FirstClass 
-{
-    public void firstMethod() 
-    {
-    	System.out.println("Executing first method");
-    }
-}

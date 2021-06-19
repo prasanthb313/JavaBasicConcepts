@@ -1,0 +1,16 @@
+package com.string.examples;
+
+public class StringSplit {
+
+	public static void main(String[] args) {
+		
+		String name="Baddepudi prasanth";
+		
+		String[] ref=name.split(" ");
+		
+		System.out.println(ref.length);
+		
+		System.out.println(ref); //creating the object address
+		
+	}
+}

@@ -1,0 +1,40 @@
+package com.oopsconcepts.pages;
+
+
+public class Encapsulation {
+
+	private int a;		 //1) constant  declaration
+	private String name; //1) constant
+	
+	public int getA() {   //2) Generate getters and setters
+		return a;
+	}
+	public void setA(int a) {
+		this.a = a;
+		
+		if(a<100) {
+			System.out.println("This recharge option is not available for your mobile");
+		}
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+		 
+	public static void main(String[] args) {
+		
+		Encapsulation encap=new Encapsulation();
+		
+		System.out.println(encap.a);
+		
+		encap.setA(10);   					//3) Need to set values by using Set Method
+		encap.setName("Baddepudi");
+	    
+	    
+	    System.out.println(encap.getA());    // 4) Need to call the values by Get Methods
+	    System.out.println(encap.getName());
+	
+	}
+}

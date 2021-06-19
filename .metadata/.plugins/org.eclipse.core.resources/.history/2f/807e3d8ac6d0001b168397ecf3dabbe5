@@ -1,0 +1,20 @@
+package com.string.examples;
+
+public class StringPractice1 {
+
+	public static void main(String[] args) {
+		
+		String s="ytiwowepowpowoi";
+		
+		// char At example
+		
+		char letter=s.charAt(9);
+		
+		System.out.println(letter);
+		
+		// length of string 
+		int a=s.length();
+		System.out.println("given string lenght is   "+a);
+		
+	}
+}
