@@ -1,0 +1,21 @@
+package com.string.examples;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SumOfGivenAmount {
+
+	public static void main(String[] args) {
+		List <String> list=new ArrayList<String>();
+		
+		list.add("RS 1234.56");
+		list.add("RS 5678.89");
+		list.add("RS 7654.90");
+		
+		for(int i=0;i<list.size();i++)
+		{
+			String ref=list.get(i);
+			
+		}
+	}
+}

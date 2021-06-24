@@ -1,0 +1,11 @@
+package com.string.examples;
+
+public class ChangingUpperCase {
+
+	public static void main(String[] args) {
+		String name="dharanijkota hyma sri durga";
+		
+		String[] required=name.split(" ");
+	}
+	
+}

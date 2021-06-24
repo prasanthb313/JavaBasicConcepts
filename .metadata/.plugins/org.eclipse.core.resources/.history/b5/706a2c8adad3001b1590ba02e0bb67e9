@@ -1,0 +1,15 @@
+package com.string.examples;
+
+public class StringDivide {
+
+	public static void main(String[] args) {
+		String name="hyma sri durga";
+		
+		String [] req=name.split(" ");
+		for (int i=0;i<name.length();i++) 
+		{
+			
+		}
+		
+	}
+}

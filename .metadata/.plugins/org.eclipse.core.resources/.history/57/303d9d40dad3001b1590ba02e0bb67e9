@@ -1,0 +1,10 @@
+package com.string.examples;
+
+public class StringDivide {
+
+	public static void main(String[] args) {
+		String name="2344566ncoihjsovdhsovsvnnvoiv onosonobododdsvsv nn n ons";
+		
+		
+	}
+}

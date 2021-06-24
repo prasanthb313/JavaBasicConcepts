@@ -1,9 +1,0 @@
-package com.oopsconcepts.pages;
-
-public class DefaultAccessModify {
-
-	void login()
-	{
-		System.out.println("login into the application");
-	}
-}
