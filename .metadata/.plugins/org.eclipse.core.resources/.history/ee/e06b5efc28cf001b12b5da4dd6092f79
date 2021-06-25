@@ -1,9 +1,0 @@
-package com.oopsconcepts.pages;
-
-public class EncapsulationExample {
-
-	public static void main(String[] args) {
-		Encapsulation ref=new  Encapsulation();
-		
-	}
-}
