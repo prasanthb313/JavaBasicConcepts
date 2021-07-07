@@ -32,8 +32,8 @@ public class FirstPage extends WebDriverBaseTestPage<WebDriverTestPage>{
 		driver.navigate().to(url);
 	}
 	
-	public void loginPage(String username,String password) throws Throwable {
-		Thread.sleep(30000);
+	public void loginPage(String username,String password)  {
+		//Thread.sleep(30000);
 		getUsername().sendKeys(username);
 		getPassword().sendKeys(password);
 		getSubmit().click();

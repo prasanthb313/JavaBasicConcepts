@@ -32,7 +32,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
 	</test> -->
 	<test name="java Test" enabled="true">
 		<classes>
-			<class name="com.sapmle.tests.FirstTest.java"></class>
+			<class name="com.sapmle.tests.WebTest.java"></class>
 		</classes>
 	</test>
 
