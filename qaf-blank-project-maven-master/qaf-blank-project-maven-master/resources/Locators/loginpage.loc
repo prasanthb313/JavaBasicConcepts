@@ -1,3 +1,5 @@
 loginpage.username.txt=XPath=//input[@id='txtLogin']
 loginpage.password.txt=XPath=//input[@id='txtPassword']
 loginpage.submit.button=XPath=//input[@id='butSubmit']
+homepage.profile.button=XPath=//div[@class='profile-icon']
+homepage.logout.button=XPath=//a[@id='hrefLogout']

@@ -36,8 +36,7 @@ public class FirstPage extends WebDriverBaseTestPage<WebDriverTestPage>{
 		//Thread.sleep(30000);
 		getUsername().sendKeys(username);
 		getPassword().sendKeys(password);
-		getSubmit().click();
-		
+		getSubmit().click();	
 	}
 	
 	@Override
